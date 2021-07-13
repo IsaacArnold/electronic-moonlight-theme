@@ -1,0 +1,39 @@
+{
+    "name": "electronic-moonlight-theme",
+    "displayName": "Electronic Moonlight Theme",
+    "description": "A relaxing yet vibrant dark theme based of Electron and Moonlight II Italic",
+    "author": {
+        "name": "Isaac Arnold"
+    },
+    "publisher": "isaaccodes",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Electronic Moonlight Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Electronic Moonlight Theme-color-theme.json"
+            }
+        ]
+    },
+    "galleryBanner": {
+        "color": "#1d1f31",
+        "theme": "dark"
+    },
+    "keywords": [
+        "Electron",
+        "Moonlight theme",
+        "Dark theme",
+        "purple",
+        "blue",
+        "isaac.codes theme",
+        "best dark theme",
+        "trending dark theme"
+    ]
+}
