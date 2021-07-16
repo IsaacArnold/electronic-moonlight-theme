@@ -7,4 +7,4 @@ A beautifully muted dark theme with subtle vibrance based off [Electron Color Th
 ![Desktop screenshot](images/Desktop-screenshot.png)
 ![CSS syntax highlight](images/CSS.png)
 ![Component syntax highlight](images/component.png)
-![JavaScript syntax highlight](images/JS-useStateExample.png)
+![JavaScript syntax highlight](images/useStateExample.png)
