@@ -20,7 +20,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Electronic Moonlight Theme",
+                "label": "Electronic Moonlight",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Electronic Moonlight Theme-color-theme.json"
             }
