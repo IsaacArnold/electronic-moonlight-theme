@@ -22,4 +22,5 @@ Here are a few settings I use:
 ```
 "editor.fontFamily": "'Dank Mono', 'Fira Code', 'Victor Mono', Menlo, Monaco, 'Courier New', monospace",
 "editor.fontSize": 15,
+"editor.fontLigatures": true,
 ```
