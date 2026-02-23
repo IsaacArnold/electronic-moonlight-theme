@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Electronic Moonlight (Minimal)</string>
+  <key>author</key>
+  <string>Converted from VS Code</string>
+  <key>DVTSourceTextFont</key>
+  <string>Menlo</string>
+
+  <key>DVTSourceTextBackground</key>
+  <dict>
+    <key>Red</key><real>0.1137254902</real>
+    <key>Green</key><real>0.1215686275</real>
+    <key>Blue</key><real>0.1921568627</real>
+    <key>Alpha</key><real>1.0</real>
+  </dict>
+
+  <key>DVTSourceTextColor</key>
+  <dict>
+    <key>Red</key><real>0.7843137255</real>
+    <key>Green</key><real>0.8274509804</real>
+    <key>Blue</key><real>0.9607843137</real>
+    <key>Alpha</key><real>1.0</real>
+  </dict>
+
+  <key>DVTSourceTextSelectionColor</key>
+  <dict>
+    <key>Red</key><real>0.9020</real>
+    <key>Green</key><real>0.9333</real>
+    <key>Blue</key><real>1.0000</real>
+    <key>Alpha</key><real>0.1294</real>
+  </dict>
+
+  <key>DVTSourceTextInsertionPointColor</key>
+  <dict>
+    <key>Red</key><real>0.9529411765</real>
+    <key>Green</key><real>0.0588235294</real>
+    <key>Blue</key><real>0.2980392157</real>
+    <key>Alpha</key><real>1.0</real>
+  </dict>
+
+</dict>
+</plist>
