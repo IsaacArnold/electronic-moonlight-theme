@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheme name="Electronic Moonlight" version="1">
+  <colors>
+    <!-- Editor text + background -->
+    <option name="CARET_COLOR" value="#F30F4C" />
+    <option name="TEXT" value="#C8D3F5" />
+    <option name="BACKGROUND" value="#1D1F31" />
+    <option name="CARET_ROW_COLOR" value="#99BBFF0A" />
+    <option name="SELECTION_BACKGROUND" value="#E6EEFF21" />
+    <option name="LINE_NUMBERS_COLOR" value="#444A73" />
+    <option name="GUTTER_BACKGROUND" value="#1D1F31" />
+    <option name="GUTTER_FOREGROUND" value="#444A73" />
+
+    <!-- UI-like mappings (best-effort) -->
+    <option name="TOOLTIP_BACKGROUND" value="#1B1D2C" />
+    <option name="TOOLTIP_FOREGROUND" value="#C8D3F5" />
+    <option name="STATUS_BAR_BACKGROUND" value="#1E2030" />
+    <option name="STATUS_BAR_FOREGROUND" value="#828BB8" />
+    <option name="SIDEBAR_BACKGROUND" value="#1E2032" />
+    <option name="SIDEBAR_FOREGROUND" value="#828BB8" />
+    <option name="TABS_BACKGROUND" value="#1E2030" />
+    <option name="TABS_FOREGROUND" value="#C8D3F5" />
+
+    <!-- Console/terminal colors (JetBrains console keys) -->
+    <option name="CONSOLE_BACKGROUND" value="#1B1D2C" />
+    <option name="CONSOLE_FOREGROUND" value="#BCC4D6" />
+    <option name="CONSOLE_CARET_COLOR" value="#82AAFF" />
+
+    <option name="CONSOLE_BLACK" value="#000000" />
+    <option name="CONSOLE_RED" value="#FF757F" />
+    <option name="CONSOLE_GREEN" value="#C3E88D" />
+    <option name="CONSOLE_YELLOW" value="#FFC777" />
+    <option name="CONSOLE_BLUE" value="#82AAFF" />
+    <option name="CONSOLE_MAGENTA" value="#FCA7EA" />
+    <option name="CONSOLE_CYAN" value="#86E1FC" />
+    <option name="CONSOLE_WHITE" value="#C8D3F5" />
+
+    <option name="CONSOLE_BRIGHT_BLACK" value="#828BB8" />
+    <option name="CONSOLE_BRIGHT_RED" value="#FF757F" />
+    <option name="CONSOLE_BRIGHT_GREEN" value="#C3E88D" />
+    <option name="CONSOLE_BRIGHT_YELLOW" value="#FFC777" />
+    <option name="CONSOLE_BRIGHT_BLUE" value="#82AAFF" />
+    <option name="CONSOLE_BRIGHT_MAGENTA" value="#FCA7EA" />
+    <option name="CONSOLE_BRIGHT_CYAN" value="#86E1FC" />
+    <option name="CONSOLE_BRIGHT_WHITE" value="#C8D3F5" />
+  </colors>
+
+  <attributes>
+    <option name="DEFAULT_TEXT">
+      <value>
+        <option name="FOREGROUND" value="#C8D3F5" />
+      </value>
+    </option>
+    <option name="LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="#7A88CF" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="#506686" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="#C099FF" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="STRING">
+      <value>
+        <option name="FOREGROUND" value="#C3E88D" />
+      </value>
+    </option>
+    <option name="NUMBER">
+      <value>
+        <option name="FOREGROUND" value="#FF966C" />
+      </value>
+    </option>
+    <option name="FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="#82AAFF" />
+      </value>
+    </option>
+    <option name="IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="#E26674" />
+      </value>
+    </option>
+    <option name="LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="#C8D3F5" />
+      </value>
+    </option>
+    <option name="OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="#86E1FC" />
+      </value>
+    </option>
+    <option name="TAG">
+      <value>
+        <option name="FOREGROUND" value="#FF757F" />
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="#FFC777" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

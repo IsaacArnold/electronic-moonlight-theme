@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.electronicmoonlight.theme</id>
+  <name>Electronic Moonlight Theme</name>
+  <version>1.0.0</version>
+  <vendor>Electronic Moonlight</vendor>
+  <description>Electronic Moonlight color scheme for JetBrains IDEs (Rider, IntelliJ, etc.).</description>
+  <depends>com.intellij.modules.platform</depends>
+  <idea-version since-build="221.0" />
+</idea-plugin>
