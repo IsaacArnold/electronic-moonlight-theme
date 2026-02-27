@@ -6,6 +6,15 @@ plugins {
 group = "com.electronicmoonlight"
 version = "1.0.0"
 
+// Use a fixed Java toolchain so the build works even when the system JDK
+// is newer than what Kotlin/Gradle understand (e.g. JDK 25). JetBrains
+// plugin builds are happy on Java 17, which is still widely available.
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
 repositories {
   mavenCentral()
 }

@@ -4,13 +4,14 @@ This document explains the minimal steps to publish the `Electronic Moonlight` c
 
 ## Prerequisites
 - JetBrains account (plugins.jetbrains.com).
-- A plugin ZIP (we already created `electronic-moonlight-jetbrains-plugin.zip` in the repo root).
+- A plugin ZIP; build it with Gradle (`jetbrains-plugin/build/distributions/...`).
+  The placeholder file previously checked in at the repo root has been removed.
 - A short description, version number, and an optional icon (recommended: 40×40 PNG).
 
 ## Quick manual publish (fastest)
 1. Sign in at https://plugins.jetbrains.com with your JetBrains account.
 2. Click **Create New Plugin** and fill in name, ID (use `com.electronicmoonlight.theme`), and vendor.
-3. Upload the ZIP created earlier (`electronic-moonlight-jetbrains-plugin.zip`).
+3. Upload the ZIP you built (e.g. `jetbrains-plugin/build/distributions/electronic-moonlight-jetbrains-plugin.zip`).
 4. Add screenshots, icon, and release notes.
 5. Submit / Publish. The plugin listing will appear after review.
 
