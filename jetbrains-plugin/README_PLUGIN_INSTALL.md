@@ -9,7 +9,9 @@ removed to avoid confusion):
 cd jetbrains-plugin
 ./gradlew assemble    # ZIP lands in build/distributions
 ```
-
+The resulting zip now contains `META-INF/plugin.xml` at its root as well as a
+`lib/` directory with the plugin JAR. This mirrors the layout produced by the
+official Gradle IntelliJ Plugin and guarantees the IDE can read the descriptor.
 1. Preferences → Plugins → **Install Plugin from Disk...**
 2. Select `jetbrains-plugin/build/distributions/electronic-moonlight-jetbrains-plugin.zip`
 3. Restart the IDE.
