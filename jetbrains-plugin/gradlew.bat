@@ -17,6 +17,22 @@
 @rem
 
 @if "%DEBUG%"=="" @echo off
+
+@rem ---------- ensure JAVA_HOME points to supported JDK ----------
+for /f "tokens=1 delims=." %%A in ('java -version 2^>^&1 ^| findstr /i "version"') do (
+    set JAVA_MAJOR=%%A
+    goto :afterJavaCheck
+)
+:afterJavaCheck
+if defined JAVA_MAJOR (
+    if %JAVA_MAJOR% GEQ 25 (
+        echo.
+        echo ERROR: Detected Java version %JAVA_MAJOR% which is incompatible with the Gradle Kotlin DSL.
+        echo        Please set JAVA_HOME to a JDK 17 or 21 and rerun the build.
+        echo.
+        exit /b 1
+    )
+)
 @rem ##########################################################################
 @rem
 @rem  Gradle startup script for Windows

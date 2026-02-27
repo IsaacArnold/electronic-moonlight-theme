@@ -1,5 +1,32 @@
 #!/bin/sh
 
+# Brew up a compatible JDK if running on an unsupported version (e.g. JDK 25+).
+# Kotlin/Gradle scripts crash when the JVM version string cannot be parsed, so
+# detect that early and either switch to Java 17 on macOS or error with a
+# helpful message.
+if command -v java >/dev/null 2>&1; then
+    java_version=$(java -version 2>&1 | awk -F '"' '/version/ {print $2}')
+    major=${java_version%%.*}
+    if [ "$major" -ge 25 ]; then
+        # try to auto-switch on macOS
+        if [ "$(uname)" = "Darwin" ]; then
+            alt=$(/usr/libexec/java_home -v17 2>/dev/null)
+            if [ -n "$alt" ]; then
+                export JAVA_HOME=$alt
+                echo "[gradlew] switched JAVA_HOME to $JAVA_HOME (Java 17)"
+            fi
+        fi
+        if [ -z "$JAVA_HOME" ]; then
+            echo ""
+            echo "ERROR: detected Java version $java_version which is incompatible"
+            echo "       with the Gradle Kotlin DSL. Set JAVA_HOME to a JDK 17/21 and"
+            echo "       rerun the command (see jetbrains-plugin/gradle.properties)."
+            echo ""
+            exit 1
+        fi
+    fi
+fi
+
 #
 # Copyright © 2015 the original authors.
 #
