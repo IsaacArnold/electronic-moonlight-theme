@@ -1,7 +1,11 @@
 node_modules
 *.vsix
 
-# avoid accidentally committing old placeholder or build artifacts
+# JetBrains plugin build artifacts
 electronic-moonlight-jetbrains-plugin.zip
-# ignore plugin ZIPs built by the Gradle script
-jetbrains-plugin/build/distributions/*.zip
+jetbrains-plugin/build/
+jetbrains-plugin/.gradle/
+jetbrains-plugin/lib/
+jetbrains-plugin/temp-jar/
+jetbrains-plugin/resources/
+/META-INF/

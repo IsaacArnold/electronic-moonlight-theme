@@ -7,4 +7,8 @@
   <description>Electronic Moonlight color scheme for JetBrains IDEs (Rider, IntelliJ, etc.).</description>
   <depends>com.intellij.modules.platform</depends>
   <idea-version since-build="221.0" />
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme path="/colors/Electronic Moonlight"/>
+  </extensions>
 </idea-plugin>

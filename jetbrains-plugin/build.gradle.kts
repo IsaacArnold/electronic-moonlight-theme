@@ -49,16 +49,11 @@ tasks.register<Zip>("assemblePluginZip") {
   archiveBaseName.set("electronic-moonlight-jetbrains-plugin")
   destinationDirectory.set(layout.buildDirectory.dir("distributions"))
 
-  // include the compiled plugin jar in a /lib directory (standard layout)
-  into("lib") {
-    from(tasks.named("jar"))
-  }
-
-  // Add the plugin.xml at the top level as well; some IDEs look there
-  // instead of peeking inside the jar. This makes ‘install from disk’ more
-  // robust and avoids the mysterious descriptor‑loading failure.
-  from("src/main/resources/META-INF/plugin.xml") {
-    into("")
+  // JetBrains requires a single top-level directory inside the ZIP.
+  into("ElectronicMoonlight") {
+    into("lib") {
+      from(tasks.named("jar"))
+    }
   }
 }
 
