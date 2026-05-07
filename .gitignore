@@ -9,3 +9,4 @@ jetbrains-plugin/lib/
 jetbrains-plugin/temp-jar/
 jetbrains-plugin/resources/
 /META-INF/
+.superpowers/
