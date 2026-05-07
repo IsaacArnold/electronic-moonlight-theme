@@ -2,7 +2,7 @@
   "name": "Electronic Moonlight",
   "dark": true,
   "author": "Isaac Arnold",
-  "editorScheme": "/colors/Electronic Moonlight.icls",
+  "editorScheme": "Electronic Moonlight",
 
   "colors": {
     "background":         "#1D1F31",

@@ -11,5 +11,6 @@
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="com.electronicmoonlight.theme"
                    path="/themes/Electronic Moonlight.theme.json"/>
+    <bundledColorScheme id="Electronic Moonlight" path="/colorSchemes/Electronic Moonlight"/>
   </extensions>
 </idea-plugin>
