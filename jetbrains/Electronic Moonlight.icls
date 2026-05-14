@@ -738,6 +738,21 @@
         <option name="FOREGROUND" value="#C3E88D" />
       </value>
     </option>
+    <option name="JS.PARENTHESES">
+      <value>
+        <option name="FOREGROUND" value="#65BCFF" />
+      </value>
+    </option>
+    <option name="JS.BRACES">
+      <value>
+        <option name="FOREGROUND" value="#B4C2F0" />
+      </value>
+    </option>
+    <option name="JS.BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="#B4C2F0" />
+      </value>
+    </option>
     <option name="JS.SEMICOLON">
       <value>
         <option name="FOREGROUND" value="#86E1FC" />
