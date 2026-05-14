@@ -657,6 +657,16 @@
     </option>
 
     <!-- JavaScript / TypeScript -->
+    <option name="JAVA_SCRIPT_STRING">
+      <value>
+        <option name="FOREGROUND" value="#C3E88D" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="#FF966C" />
+      </value>
+    </option>
     <option name="JAVA_SCRIPT_LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="#E26674" />
