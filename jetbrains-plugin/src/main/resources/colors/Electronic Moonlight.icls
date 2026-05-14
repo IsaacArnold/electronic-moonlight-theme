@@ -149,7 +149,7 @@
     </option>
     <option name="FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="#82AAFF" />
+        <option name="FOREGROUND" value="#65BCFF" />
       </value>
     </option>
     <option name="METHOD_DECLARATION">
@@ -181,12 +181,12 @@
     </option>
     <option name="LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="#C8D3F5" />
+        <option name="FOREGROUND" value="#E26674" />
       </value>
     </option>
     <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="#C8D3F5" />
+        <option name="FOREGROUND" value="#E26674" />
       </value>
     </option>
     <option name="PARAMETER">
@@ -221,12 +221,12 @@
     </option>
     <option name="CONSTANT">
       <value>
-        <option name="FOREGROUND" value="#FF98A4" />
+        <option name="FOREGROUND" value="#E76572" />
       </value>
     </option>
     <option name="ENUM_CONST_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="#FF98A4" />
+        <option name="FOREGROUND" value="#E76572" />
       </value>
     </option>
 
@@ -331,7 +331,7 @@
     </option>
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="#C3E88D" />
+        <option name="FOREGROUND" value="#56A3B1" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
@@ -341,7 +341,7 @@
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="#C3E88D" />
+        <option name="FOREGROUND" value="#56A3B1" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
@@ -552,17 +552,17 @@
     </option>
     <option name="ReSharper.ReSharperLOCAL_VARIABLE_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="#C8D3F5" />
+        <option name="FOREGROUND" value="#E26674" />
       </value>
     </option>
     <option name="ReSharper.ReSharperMUTABLE_LOCAL_VARIABLE_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="#C8D3F5" />
+        <option name="FOREGROUND" value="#E26674" />
       </value>
     </option>
     <option name="ReSharper.ReSharperCAPTURED_VARIABLE_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="#C8D3F5" />
+        <option name="FOREGROUND" value="#E26674" />
       </value>
     </option>
     <option name="ReSharper.ReSharperCONSTANT_IDENTIFIER">
@@ -648,6 +648,79 @@
     <option name="CSS_VARIABLE">
       <value>
         <option name="FOREGROUND" value="#FCA7EA" />
+      </value>
+    </option>
+    <option name="CSS_UNIT">
+      <value>
+        <option name="FOREGROUND" value="#D59DF6" />
+      </value>
+    </option>
+
+    <!-- JavaScript / TypeScript -->
+    <option name="JAVA_SCRIPT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="#E26674" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="#FFC777" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="#FCA7EA" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_INSTANCE_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="#A9B8E8" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_STATIC_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="#FF966C" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="#82AAFF" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="#82AAFF" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_STATIC_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="#82AAFF" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="#C099FF" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_REGEXP">
+      <value>
+        <option name="FOREGROUND" value="#B4F9F8" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="#86E1FC" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_TEMPLATE_LITERAL">
+      <value>
+        <option name="FOREGROUND" value="#86E1FC" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_MODULE_NAME">
+      <value>
+        <option name="FOREGROUND" value="#C3E88D" />
       </value>
     </option>
 
