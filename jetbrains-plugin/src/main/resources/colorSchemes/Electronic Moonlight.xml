@@ -669,6 +669,16 @@
         <option name="FOREGROUND" value="82AAFF" />
       </value>
     </option>
+    <option name="JAVA_SCRIPT_LOCAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="82AAFF" />
+      </value>
+    </option>
+    <option name="JAVA_SCRIPT_EXPORTED_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="82AAFF" />
+      </value>
+    </option>
     <option name="JAVA_SCRIPT_INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FOREGROUND" value="82AAFF" />
