@@ -657,90 +657,107 @@
     </option>
 
     <!-- JavaScript / TypeScript -->
-    <option name="JAVA_SCRIPT_STRING">
+    <option name="JS.STRING">
       <value>
         <option name="FOREGROUND" value="#C3E88D" />
       </value>
     </option>
-    <option name="JAVA_SCRIPT_NUMBER">
+    <option name="JS.NUMBER">
       <value>
         <option name="FOREGROUND" value="#FF966C" />
       </value>
     </option>
-    <option name="JAVA_SCRIPT_LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="#E26674" />
-      </value>
-    </option>
-    <option name="JAVA_SCRIPT_GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="#FFC777" />
-      </value>
-    </option>
-    <option name="JAVA_SCRIPT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="#FCA7EA" />
-      </value>
-    </option>
-    <option name="JAVA_SCRIPT_INSTANCE_MEMBER_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="#A9B8E8" />
-      </value>
-    </option>
-    <option name="JAVA_SCRIPT_STATIC_MEMBER_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="#FF966C" />
-      </value>
-    </option>
-    <option name="JAVA_SCRIPT_FUNCTION_DECLARATION">
-      <value>
-        <option name="FOREGROUND" value="#82AAFF" />
-      </value>
-    </option>
-    <option name="JAVA_SCRIPT_LOCAL_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="#82AAFF" />
-      </value>
-    </option>
-    <option name="JAVA_SCRIPT_EXPORTED_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="#82AAFF" />
-      </value>
-    </option>
-    <option name="JAVA_SCRIPT_INSTANCE_MEMBER_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="#82AAFF" />
-      </value>
-    </option>
-    <option name="JAVA_SCRIPT_STATIC_MEMBER_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="#82AAFF" />
-      </value>
-    </option>
-    <option name="JAVA_SCRIPT_KEYWORD">
+    <option name="JS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="#C099FF" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JAVA_SCRIPT_REGEXP">
+    <option name="JS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="#E26674" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="#FFC777" />
+      </value>
+    </option>
+    <option name="JS.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="#FCA7EA" />
+      </value>
+    </option>
+    <option name="JS.INSTANCE_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="#A9B8E8" />
+      </value>
+    </option>
+    <option name="JS.STATIC_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="#FF966C" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="#82AAFF" />
+      </value>
+    </option>
+    <option name="JS.LOCAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="#82AAFF" />
+      </value>
+    </option>
+    <option name="JS.INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="#82AAFF" />
+      </value>
+    </option>
+    <option name="JS.STATIC_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="#82AAFF" />
+      </value>
+    </option>
+    <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="#B4F9F8" />
       </value>
     </option>
-    <option name="JAVA_SCRIPT_VALID_STRING_ESCAPE">
+    <option name="JS.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="#86E1FC" />
       </value>
     </option>
-    <option name="JAVA_SCRIPT_TEMPLATE_LITERAL">
+    <option name="JS.TEMPLATE_LITERAL">
       <value>
         <option name="FOREGROUND" value="#86E1FC" />
       </value>
     </option>
-    <option name="JAVA_SCRIPT_MODULE_NAME">
+    <option name="JS.MODULE_NAME">
       <value>
         <option name="FOREGROUND" value="#C3E88D" />
+      </value>
+    </option>
+    <option name="JS.SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="#86E1FC" />
+      </value>
+    </option>
+    <option name="JS.OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="#86E1FC" />
+      </value>
+    </option>
+    <option name="JS.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="#506686" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JS.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="#506686" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
 
